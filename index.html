@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+<script type="text/javascript" src = "onebutton-multipledivs.js"></script>
+<style type="text/css">
+	div {height: 100vh;padding:50px;}	
+	#div1 {background-color: crimson}
+	#div2 {background-color: gold}
+	#div3 {background-color: springgreen}
+	#div4 {background-color: cornflowerblue}
+	button {
+		position:fixed;
+		top: 80%;
+		left:50%;
+		transform: translate(-50%,-50%);
+		height: 50px;
+		width: 100px;
+		background-color: white;
+	}
+	h1 {text-align: center;}
+</style>
+</head>
+<body>
+	<button id="next_button"> NEXT TARGET!</button>
+	<div id = "div1" class = "target_element">
+		<h1>You're in the first target</h1>
+	</div>
+	<div id = "div2" class = "target_element">
+		<h1>You're in the second target</h1>
+	</div>
+	<div id = "div3" class = "target_element">
+		<h1>You're in the third target</h1>
+	</div>
+	<div id = "div4" class = "target_element">
+		<h1>You're in the fourth target</h1>
+	</div>
+</body>
+</html>
